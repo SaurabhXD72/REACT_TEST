@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SaurabhXD72/REACT_TEST.git/static/css/main.3b8acf4b.css",
+    "main.js": "/SaurabhXD72/REACT_TEST.git/static/js/main.3b3de147.js",
+    "index.html": "/SaurabhXD72/REACT_TEST.git/index.html",
+    "main.3b8acf4b.css.map": "/SaurabhXD72/REACT_TEST.git/static/css/main.3b8acf4b.css.map",
+    "main.3b3de147.js.map": "/SaurabhXD72/REACT_TEST.git/static/js/main.3b3de147.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8acf4b.css",
+    "static/js/main.3b3de147.js"
+  ]
+}
