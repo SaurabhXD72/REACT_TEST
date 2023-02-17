@@ -1,6 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
+import './App.css';
+import Welcome from './components/Welcome/Welcome';
+
+const App = () => {
+  return (
+    <Router>
+      <Header />
+      
+      <Routes>
+     <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Register />} />
+      <Route path ="/welcome" element={<Welcome />} />
+      </Routes>
+
+      <Footer />
+    </Router>
+  );
+};
+
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +46,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
